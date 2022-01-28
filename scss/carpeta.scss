@@ -1,0 +1,24 @@
+@import "navbar";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+$colores: (azul: "#00438a", negro: "black");
+
+.btn-primary {
+    width: 100%;
+    background-color:map-get($map: $colores, $key: azul);
+}
+.flex-container {
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    justify-content: space-between
+}
+
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

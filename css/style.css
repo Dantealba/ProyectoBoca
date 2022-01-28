@@ -1,0 +1,22 @@
+.container-fluid {
+  background-color: #00438a;
+  padding: 10px; }
+
+* {
+  margin: 0%;
+  padding: 0%; }
+
+.btn-primary {
+  width: 100%;
+  background-color: "#00438a"; }
+
+.flex-container {
+  display: flex;
+  margin: 5px;
+  width: 100%;
+  justify-content: space-between; }
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center; } }
