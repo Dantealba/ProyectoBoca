@@ -1,0 +1,11 @@
+$colores: (azul: #00438a, negro: "black");
+
+.btn-primary {
+    width: 100%;
+    align-items: center;
+    background-color: map-get($map: $colores, $key: azul);
+    margin-top: 17px;
+}
+.card-body {
+    text-align: center;
+}

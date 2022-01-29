@@ -2,19 +2,33 @@
   background-color: #00438a;
   padding: 10px; }
 
+.btn-primary {
+  width: 100%;
+  align-items: center;
+  background-color: #00438a;
+  margin-top: 17px; }
+
+.card-body {
+  text-align: center; }
+
 * {
   margin: 0%;
   padding: 0%; }
-
-.btn-primary {
-  width: 100%;
-  background-color: "#00438a"; }
 
 .flex-container {
   display: flex;
   margin: 5px;
   width: 100%;
   justify-content: space-between; }
+
+.flex-container a {
+  text-decoration: none;
+  color: black;
+  transition-duration: 500ms;
+  cursor: pointer; }
+  .flex-container a:hover {
+    color: white;
+    background-color: #00438a; }
 
 @media (max-width: 600px) {
   .flex-container {
